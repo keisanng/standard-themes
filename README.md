@@ -13,21 +13,41 @@ This' an opinionated specification for standard light and dark color themes, des
 | Role                 | R   | G   | B   |
 | -------------------- | --- | --- | --- |
 | Primary Background   | 26  | 26  | 26  |
-| Primary Foreground   | 201 | 212 | 201 |
+| Primary Foreground   | 220 | 220 | 220 |
 | Secondary Background | 37  | 37  | 37  |
 | Secondary Foreground | 255 | 251 | 255 |
 
 ## Reasoning
 
-### Background Schemes
+The below reasons for the design of the standard themes are reflected in Visual Studio Code's default dark theme which many people already stare at for hours per day.
 
-The primary background color is designed for the main content the end user will view. It's darker than the secondary background color, which should be for any content which isn't the main content. The primary color should be darker than the secondary color so that the user can better immerse in your main content. Think of theatres; most having dimmed or no lighting at all while content is being shown.
+<img alt="Visual Studio Code's standard dark theme." src="https://raw.githubusercontent.com/keisanng/standard-themes/main/src/Screenshot%202024-02-24%20132144.png" style="border-radius: .7rem">
 
-This design choice is reflected in the Visual Studio Code's standard dark theme:
+### Background Scheme
 
-![Visual Studio Code's standard dark theme.](./src/Screenshot 2024-02-24 132144.png)
+The primary background color is designed for the main content the end user will view. It's darker than the secondary background color, which should be for any content which isn't the main content. The primary color should be darker than the secondary color so that the user can better focus your main content. Think of theatres; most having dimmed or no lighting at all while content is being shown.
 
-### Foreground Schemes
+### Foreground Scheme
+
+The primary and secondary foreground colors are designed to contrast the primary and secondary background colors comfortably, with a contrast which isn't too heavy or to light. This' done with the user's eyes in concern, because too heavy of contrast will make the foreground hard to read and too light of a contrast will make the foreground hard to see - uncomfortable.
+
+<p style="background-color: rgb(26, 26, 26); padding: 1ch; border-radius: .7rem;">
+  <span style="color: white">
+    This' hard to read.
+  </span>
+</p>
+
+<p style="background-color: rgb(26, 26, 26); padding: 1ch; border-radius: .7rem;">
+  <span style="color: rgb(220, 220, 220)">
+    This' perfect.
+  </span>
+</p>
+
+<p style="background-color: rgb(26, 26, 26); padding: 1ch; border-radius: .7rem;">
+  <span style="color: gray">
+    This' hard to see.
+  </span>
+</p>
 
 ## License
 
