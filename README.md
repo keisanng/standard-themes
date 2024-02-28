@@ -4,7 +4,9 @@ Standardized dark and light color themes.
 
 ## Preface
 
-This' an opinionated specification for standard light and dark color themes, designed with practical usage of color for enhanced user experience.
+This' a specification for standardized light and dark color themes. While the design of the colors themselves is opinionated, the usage of the chosen colors is based in reason and practicality.
+
+opinionated specification for standard light and dark color themes, designed with practical usage of color for enhanced user experience.
 
 ## Color Themes
 
@@ -12,12 +14,12 @@ This' an opinionated specification for standard light and dark color themes, des
 
 | Role                 | R   | G   | B   |
 | -------------------- | --- | --- | --- |
-| Primary Background   | 26  | 26  | 26  |
+| Primary Background   | 31  | 31  | 31  |
 | Primary Foreground   | 220 | 220 | 220 |
 | Secondary Background | 37  | 37  | 37  |
 | Secondary Foreground | 255 | 251 | 255 |
 
-## Reasoning
+## Usage & Reasoning
 
 The below reasons for the design of the standard themes are reflected in Visual Studio Code's default dark theme which many people already stare at for hours per day.
 
